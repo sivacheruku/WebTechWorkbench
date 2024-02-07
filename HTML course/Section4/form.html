@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div>
+        <h1>Travel form for our trip</h1>
+        <form action="form.php">
+            <input type="text" placeholder = "Enter your name"> <br>
+            <label for="Sectionida">
+                <input type="radio" value = "Section a" name = "Section" id = "Sectionida"> Section A
+            </label>
+            <label for="Sectionidb">
+                <input type="radio" value = "Section b" name = "Section" id = "Sectionidb"> Section B
+            </label>
+            <label for="Sectionidc">
+                <input type="radio" value = "Section c" name = "Section" id = "Sectionidc"> Section C
+            </label> <br>
+            <label for="foodcanteen">
+            <input type="checkbox" name="Want Food Canteen Card" id="foodcanteen"> I want food canteen card.<br>
+            </label>
+            <textarea name="explain" id="explain" cols="30" rows="10" placeholder="Explain why you want to join"></textarea> <br>
+            <select name="chosedcar" id="chosedcar">
+                <option value="Camry">Camry</option>
+                <option value="Civic">Civic</option>  
+                <option value="Prius">Prius</option>  
+            </select> <br>
+        </form>
+    </div>
+</body>
+</html>
